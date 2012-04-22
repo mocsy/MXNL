@@ -1,0 +1,5 @@
+// the configured options and settings for Tutorial
+#define microdesu_VERSION_MAJOR @microdesu_VERSION_MAJOR@
+#define microdesu_VERSION_MINOR @microdesu_VERSION_MINOR@
+#define microdesu_VERSION_PATCH @microdesu_VERSION_PATCH@
+#define microdesu_VERSION_COMMIT @microdesu_VERSION_COMMIT@
