@@ -13,5 +13,5 @@ set(VERSION_PATCH "1")
 #find_package( boost REQUIRED )
 
 add_subdirectory (inc)
-add_subdirectory (lib)
-add_subdirectory (src)
+add_subdirectory (libs)
+add_subdirectory (microdesu)
