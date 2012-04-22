@@ -5,9 +5,20 @@
 cmake_minimum_required (VERSION 2.6)
 
 project (microdesu)
-set(VERSION_MAJOR "0")
-set(VERSION_MINOR "0")
-set(VERSION_PATCH "1")
+set(microdesu_VERSION_MAJOR "0")
+set(microdesu_VERSION_MINOR "0")
+set(microdesu_VERSION_PATCH "1")
+set(microdesu_VERSION_COMMIT "0")
+
+# configure a header file to pass some of the CMake settings
+# to the source code
+configure_file (
+  "${PROJECT_SOURCE_DIR}/microdesuConfig.h.in"
+  "${PROJECT_BINARY_DIR}/microdesuConfig.h")
+ 
+# add the binary tree to the search path for include files
+# so that we will find TutorialConfig.h
+include_directories("${PROJECT_BINARY_DIR}")
 
 # This project requires Boost
 #find_package( boost REQUIRED )
