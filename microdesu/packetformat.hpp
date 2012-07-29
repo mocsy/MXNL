@@ -1,0 +1,11 @@
+
+
+
+namespace microdesu
+{
+	class PacketFormat
+	{
+		//
+	};
+
+}

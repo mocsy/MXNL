@@ -1,0 +1,9 @@
+Licensed under the boost license
+See wiki for more info: http://github.com/mocsy/MiCroDesu/wiki
+
+Installation for developers:
+1. go to ./inc and execute get_boost.bat or .sh
+2. execute boostbuild_bootstrap_gcc.bat or .sh
+3. execute boostbuild_install.bat or .sh
+
+Build code with build_def.bat/sh or build_gcc.bat
