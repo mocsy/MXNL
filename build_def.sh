@@ -1,1 +1,1 @@
- ./inc/boost_build/bin/b2
+ ./boost_build/bin/b2

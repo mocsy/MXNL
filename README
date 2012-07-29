@@ -7,3 +7,6 @@ Installation for developers:
 3. execute boostbuild_install.bat or .sh
 
 Build code with build_def.bat/sh or build_gcc.bat
+
+
+Not that the .bat and .sh files server only as examples, building is done in a standard buoost build fashion.
