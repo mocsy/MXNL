@@ -3,3 +3,17 @@ See wiki for more info: http://github.com/mocsy/MXNL/wiki
 
 Genereate Visual Studio 2015 sln:
 premake5 vs2015
+
+Other options:
+| Action      | Description                                       |
+|-------------|---------------------------------------------------|
+| vs2015      | Generate Visual Studio 2015 project files         |
+| vs2013      | Generate Visual Studio 2013 project files         |
+| vs2012      | Generate Visual Studio 2012 project files         |
+| vs2010      | Generate Visual Studio 2010 project files         |
+| vs2008      | Generate Visual Studio 2008 project files         |
+| vs2005      | Generate Visual Studio 2005 project files         |
+| gmake       | Generate GNU Makefiles (including [Cygwin][1] and [MinGW][2]) |
+| xcode       | XCode projects (built-in [extension](https://github.com/premake/premake-xcode)) |
+| monodevelop | MonoDevelop/Xamarin projects (built-in [extension](https://github.com/premake/premake-monodevelop)) |
+| codelite    | CodeLite projects (built-in [extension](https://github.com/premake/premake-codelite)) |
