@@ -1,12 +1,5 @@
-Licensed under the boost license
+Licensed under the BSD 3-clause license
 See wiki for more info: http://github.com/mocsy/MXNL/wiki
 
-Installation for developers:
-1. go to ./inc and execute get_boost.bat or .sh
-2. execute boostbuild_bootstrap_gcc.bat or .sh
-3. execute boostbuild_install.bat or .sh
-
-Build code with build_def.bat/sh or build_gcc.bat
-
-
-Not that the .bat and .sh files server only as examples, building is done in a standard buoost build fashion.
+Genereate Visual Studio 2015 sln:
+premake5 vs2015
