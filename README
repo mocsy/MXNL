@@ -17,3 +17,4 @@ Other options:
 | xcode       | XCode projects (built-in [extension](https://github.com/premake/premake-xcode)) |
 | monodevelop | MonoDevelop/Xamarin projects (built-in [extension](https://github.com/premake/premake-monodevelop)) |
 | codelite    | CodeLite projects (built-in [extension](https://github.com/premake/premake-codelite)) |
+https://github.com/premake/premake-core/wiki/Using-Premake
