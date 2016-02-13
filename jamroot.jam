@@ -1,6 +1,0 @@
-exe test
-: test/test_main.cpp
-: <include>inc/boost-svn
-: <include>inc
-;
-

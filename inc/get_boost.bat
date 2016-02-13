@@ -1,1 +1,0 @@
-git clone git://github.com/ryppl/boost-svn.git
